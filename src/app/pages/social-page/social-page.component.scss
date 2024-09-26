@@ -1,0 +1,52 @@
+body {
+  background-color: #223b52; /* Màu xanh nhạt */
+}
+
+.status-box, .post, .sidebar-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post-content img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.reaction-btn {
+  background-color: transparent;
+  border: none;
+  color: #4b3c44;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.reaction-btn:hover {
+  color: #a3382a;
+}
+
+.sidebar-box img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post {
+     /* Đặt chiều cao */
+  background-color: #93bae0;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(185, 27, 66, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;  /* Đảm bảo nội dung không vượt ra ngoài */
+}
+.post-content {
+  
+}
+.post-content img {
+  max-width: 100%;   /* Đảm bảo ảnh không vượt quá kích thước của bài đăng */
+  border-radius: 10px;
+}

@@ -1,0 +1,27 @@
+.user-profile {
+    display: flex; /* Sắp xếp ảnh và tên theo hàng ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.avatar {
+    width: 100px; /* Chiều rộng ảnh */
+    height: 40px; /* Chiều cao ảnh */
+    border-radius: 50%; /* Làm tròn góc để tạo hiệu ứng ảnh tròn, nhưng sẽ theo hình elip do khác tỷ lệ */
+    object-fit: cover; /* Đảm bảo ảnh bao phủ toàn bộ khung */
+    margin-right: 10px; /* Khoảng cách giữa ảnh và tên */
+}
+
+.title {
+    margin-right: 15px;
+}
+.username {
+    height: 40px; /* Chiều cao cố định cho tên */
+    line-height: 40px; /* Căn giữa tên theo chiều dọc */
+}
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Giãn cách mỗi item trong danh sách */
+}
+
+.navbar-nav .nav-link {
+    padding: 8px 12px; /* Giãn cách bên trong mỗi liên kết */
+}
